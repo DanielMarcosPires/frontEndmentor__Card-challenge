@@ -1,0 +1,32 @@
+@import url('../assets/style/card.css');
+@import url('../assets/style/hover.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+:root{
+   --fundo: #090b1a;
+   --fundoDocard:#1c1a38;
+   --accent:#a25acc;
+
+   --branco:#ffffff;
+   --branco2:#ffffffbf;
+   --branco3:hsla(0, 0%, 100%, 0.6);
+
+   --inter:'Inter', sans-serif;
+   --lexend:'Lexend Deca', sans-serif;
+}
+body{
+    background: var(--fundo);
+    color: var(--branco);
+  
+}
+.attribution { 
+    position: relative;
+    font-size: 1em; text-align: center; 
+    font-family: var(--inter);
+    bottom: 1em;
+}
+.attribution a { 
+    font-size: 1em;
+    color: hsl(228, 45%, 44%);
+    font-family: var(--inter);
+ }
